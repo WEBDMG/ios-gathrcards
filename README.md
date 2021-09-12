@@ -1,1 +1,3 @@
-# ios-gathrcards
+# GathrCards
+
+A description of this package.
