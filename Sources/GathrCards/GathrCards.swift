@@ -42,13 +42,13 @@ public struct GathrCards: View {
                 }
                 
                 VStack(alignment: .leading){
-                    Text(card.caption).font(.caption).fontWeight(.semibold).foregroundColor(Color.gray)
+                    Text(card.caption).font(.subheadline).fontWeight(.semibold).foregroundColor(Color.gathrsecondary)
                     Spacer()
-                    Text(card.title).font(.title).fontWeight(.bold).foregroundColor(Color.gathrsecondary)
-                    Text(card.body).font(.body).padding(.vertical).foregroundColor(Color.gathrsecondary)
+                    Text(card.title).font(.largeTitle).fontWeight(.bold)
+                    Text(card.body).font(.body).padding(.vertical)
                 }.padding()
             }
-        }
+        }.frame( minHeight:350)
     }
 }
 
